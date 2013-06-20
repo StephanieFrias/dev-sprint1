@@ -1,3 +1,10 @@
 *** Cut and paste the for loop here ***
 
+{% for message in messages %}
+{{message}}
+					{% endfor %}
+
+
 *** What is the for loop doing? ***
+
+This loop goes through every message in messages, in turn displaying each message.

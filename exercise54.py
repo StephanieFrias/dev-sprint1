@@ -16,7 +16,6 @@ def triangle_sides():
 	a=int(raw_input("length a?\n"))
 	b=int(raw_input("length b?\n"))
 	c=int(raw_input("length c?\n"))
-
-is_triangle(4,8,9)
+	is_triangle(a,b,c)
 
 triangle_sides()
